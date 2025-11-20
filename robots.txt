@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://irfanhassan527.github.io/website/sitemap.xml
