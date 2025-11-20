@@ -2,30 +2,49 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
-first_name: Irfan
-# middle_name: R.
-last_name: Hassan
+# If title is left blank, al-folio automatically uses "first_name last_name"
+title: ""
+
+first_name: "Irfan"
+last_name: "Hassan"
+
 contact_note: >
   The best way to reach me is via email. I usually reply within 24 hours.
-description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Master's student in Computer Science & Technology at Southwest Jiaotong University (SWJTU), 
-  focusing on computer vision, deep learning, and autonomous systems. This website showcases 
-  my research, publications, projects, and academic profile.
+
+description: >
+  Master's student in Computer Science & Technology at Southwest Jiaotong University (SWJTU),
+  focusing on computer vision, deep learning, and autonomous systems.
+  This website showcases my research, publications, projects, and academic profile.
+
 footer_text: >
   Powered by
   <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with the
   <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords: Irfan Hassan # add your own keywords or leave empty
-lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: 🛰️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
-url: "https://irfanhassan527.github.io" # the base hostname & protocol for your site
-baseurl: "/website" # the subpath of your site, e.g. /blog/. Leave blank for root
-last_updated: false # set to true if you want to display last updated in the footer
-impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
-back_to_top: true # set to false to disable the back to top button
+keywords: "Irfan Hassan"
+
+lang: "en"
+
+# Use your chosen emoji or replace with favicon image in /assets/img/
+icon: "🛰️"
+
+# -------------------------------------
+# URL SETTINGS (IMPORTANT)
+# -------------------------------------
+
+url: "https://irfanhassan527.github.io"   # Your GitHub Pages main URL
+
+# If your repo name is "website", KEEP this:
+baseurl: "/website"
+
+# (If your repo is actually named irfanhassan527.github.io → baseurl must be "")
+# baseurl: ""   ← only use if your repo is exactly YOURUSERNAME.github.io
+
+# -------------------------------------
+last_updated: false
+impressum_path:
+back_to_top: true
 
 # -----------------------------------------------------------------------------
 # Theme
