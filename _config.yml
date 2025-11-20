@@ -21,7 +21,6 @@ keywords: Irfan Hassan # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 🛰️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
-
 url: "https://irfanhassan527.github.io" # the base hostname & protocol for your site
 baseurl: "/website" # the subpath of your site, e.g. /blog/. Leave blank for root
 last_updated: false # set to true if you want to display last updated in the footer
